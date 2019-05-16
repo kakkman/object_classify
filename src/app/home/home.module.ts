@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import * as tf from '@tensorflow/tfjs';
 
 @NgModule({
   imports: [

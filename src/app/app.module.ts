@@ -9,6 +9,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import * as tf from '@tensorflow/tfjs';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
